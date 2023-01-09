@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+            <ScrollView android:id="@+id/welcome_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout android:id="@+id/content_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+
+                    <RelativeLayout android:id="@+id/page_welcome_screen_ek1"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <View
+                            android:id="@+id/_bg__welcome_screen_ek2"
+                            android:layout_width="414dp"
+                            android:layout_height="810dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@color/lavender" />
+
+                        <ImageView
+                            android:id="@+id/logo_main"
+                            android:layout_width="400dp"
+                            android:layout_height="400dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="200dp"
+                            android:contentDescription="logo"
+                            android:src="@drawable/logo_main" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
