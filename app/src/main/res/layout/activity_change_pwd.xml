@@ -103,7 +103,7 @@
 
 
                     <TextView
-                        android:id="@+id/register_ek4"
+                        android:id="@+id/change_pwd_txt"
                         android:layout_width="276dp"
                         android:layout_height="45dp"
                         android:layout_marginLeft="75dp"

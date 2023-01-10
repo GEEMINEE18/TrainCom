@@ -14,9 +14,13 @@
         <entry key="..\:/NavigationDrawer/app/src/main/res/drawable/nav_home.xml" value="0.142" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_change_pwd.xml" value="0.25" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_confirm_pay.xml" value="0.25" />
+        <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_freight_services.xml" value="0.25" />
+        <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_frieght_services.xml" value="0.25" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_other_services.xml" value="0.25" />
+        <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_proceed_freight.xml" value="0.25" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/activity_register.xml" value="0.2359375" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/fragment_about.xml" value="0.16983695652173914" />
         <entry key="..\:/NavigationDrawer/app/src/main/res/layout/fragment_book_history.xml" value="0.25" />

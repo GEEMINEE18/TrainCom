@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ScrollView android:id="@+id/home_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout android:id="@+id/content_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <RelativeLayout android:id="@+id/rel_home"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="414dp"
+                            android:layout_height="750dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@color/lavender" />
+
+                        <View
+                            android:id="@+id/shape3"
+                            android:layout_width="414dp"
+                            android:layout_height="700dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="130dp"
+                            android:background="@drawable/shape4" />
+
+
+                        <ImageView
+                            android:id="@+id/logo"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="-60dp"
+                            android:contentDescription="logo"
+                            android:src="@drawable/logo_main" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/MakeReservationBtn"
+                            android:layout_width="288dp"
+                            android:layout_height="65dp"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginTop="350dp"
+                            android:background="@drawable/shape2"
+                            android:text="Transporting Goods using Railway Wagons"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="19dp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Freight_ServiceBtn"
+                            android:layout_width="288dp"
+                            android:layout_height="65dp"
+                            android:layout_below="@id/MakeReservationBtn"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginTop="55dp"
+                            android:background="@drawable/shape2"
+                            android:text="Transporting Parcels by Train"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="19dp" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

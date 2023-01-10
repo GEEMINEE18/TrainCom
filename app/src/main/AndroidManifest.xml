@@ -14,7 +14,16 @@
         android:theme="@style/Theme.NavigationDrawer"
         tools:targetApi="31">
         <activity
+            android:name=".Proceed_Freight"
+            android:exported="false" />
+        <activity
+            android:name=".Freight_Services"
+            android:exported="false" />
+        <activity
             android:name=".ConfirmPay"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".change_pwd"
@@ -32,7 +41,7 @@
             android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".other_services"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
