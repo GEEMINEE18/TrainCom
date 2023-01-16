@@ -29,7 +29,7 @@
         <item
             android:id="@+id/nav_terms"
             android:icon="@drawable/nav_terms"
-            android:title="Terms and Conditions"/>
+            android:title="Terms &amp; Conditions"/>
 
 
     </group>

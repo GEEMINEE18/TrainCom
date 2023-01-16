@@ -14,6 +14,9 @@
         android:theme="@style/Theme.NavigationDrawer"
         tools:targetApi="31">
         <activity
+            android:name=".other_services"
+            android:exported="false" />
+        <activity
             android:name=".Proceed_Freight"
             android:exported="false" />
         <activity
@@ -41,7 +44,7 @@
             android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".other_services"
+            android:name=".travel_main"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

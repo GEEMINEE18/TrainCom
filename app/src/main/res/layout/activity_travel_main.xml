@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".travel_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+            <ScrollView android:id="@+id/make_reservation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout android:id="@+id/content_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RelativeLayout android:id="@+id/page_make_reservation_ek1"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:id="@+id/layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1700dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/shape1" />
+
+                        <View
+                            android:id="@+id/recLayout"
+                            android:layout_width="414dp"
+                            android:layout_height="1100dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="141dp"
+                            android:background="@drawable/shape1" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_galle"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="200dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/galle" />
+
+                        <TextView
+                            android:id="@+id/galle"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="335dp"
+                            android:text="Galle"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_kandy"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_marginTop="200dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/kandy" />
+
+                        <TextView
+                            android:id="@+id/kandy"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="335dp"
+                            android:text="Kandy"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_ella"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_kandy"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/ella" />
+
+                        <TextView
+                            android:id="@+id/ella"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_galle"
+                            android:text="Ella"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_badulla"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_below="@+id/travel_kandy"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/badulla" />
+
+                        <TextView
+                            android:id="@+id/badulla"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_kandy"
+                            android:text="Badulla"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_anuradhapura"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_ella"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/anuradhapura" />
+                        <TextView
+                            android:id="@+id/anuradhapura"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_ella"
+                            android:text="Anuradhapura"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_matara"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_below="@+id/travel_badulla"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/matara" />
+
+                        <TextView
+                            android:id="@+id/matara"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_badulla"
+                            android:text="Matara"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_polonnaruwa"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_anuradhapura"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/polonnaruwa" />
+
+                        <TextView
+                            android:id="@+id/polonnaruwa"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_anuradhapura"
+                            android:text="Polonnaruwa"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_nuwaraeliya"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_below="@+id/travel_matara"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/nuwaraeliya" />
+
+                        <TextView
+                            android:id="@+id/nuwaraeliya"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_matara"
+                            android:text="Nuwara Eliya"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_trinco"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_polonnaruwa"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/trinco" />
+
+                        <TextView
+                            android:id="@+id/trinco"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_polonnaruwa"
+                            android:text="Trincomalee"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_jaffna"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_below="@+id/travel_nuwaraeliya"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/jaffna" />
+
+                        <TextView
+                            android:id="@+id/jaffna"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_nuwaraeliya"
+                            android:text="Jaffna"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_colombo"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_trinco"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/colombo" />
+
+                        <TextView
+                            android:id="@+id/colombo"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_trinco"
+                            android:text="Colombo"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_hikka"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_below="@+id/travel_jaffna"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/hikkaduwa" />
+
+                        <TextView
+                            android:id="@+id/hikka"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_jaffna"
+                            android:text="Hikkaduwa"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_adams"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_colombo"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/adams_peak" />
+
+                        <TextView
+                            android:id="@+id/adams"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_colombo"
+                            android:text="Adam's Peak"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_sigiriya"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_below="@+id/travel_hikka"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/sigiriya" />
+
+                        <TextView
+                            android:id="@+id/sigiriya"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_hikka"
+                            android:text="Sigiriya"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_yala"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_below="@+id/travel_adams"
+                            android:layout_marginStart="30sp"
+                            android:layout_marginBottom="50dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/yala" />
+
+                        <TextView
+                            android:id="@+id/yala"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_adams"
+                            android:text="Yala National Park"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/travel_minneriya"
+                            android:layout_width="160dp"
+                            android:layout_height="178dp"
+                            android:layout_marginStart="230dp"
+                            android:layout_marginBottom="50dp"
+                            android:layout_below="@+id/travel_sigiriya"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/img_btn1"
+                            android:src="@drawable/minneriya" />
+
+                        <TextView
+                            android:id="@+id/minneriya"
+                            android:layout_width="120dp"
+                            android:layout_height="47.5dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_below="@+id/travel_sigiriya"
+                            android:text="Minneriya"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.Toolbar
+                            android:id="@+id/toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/lavender"
+                            android:elevation="4dp"
+                            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/fragment_container"/>
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-60dp"
+                        android:contentDescription="logo"
+                        android:src="@drawable/logo_main" />
+
+                    <TextView
+                        android:id="@+id/ConfirmPay"
+                        android:layout_width="276dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="120dp"
+                        android:text="Travel Sri Lanka"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+            </ScrollView>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        app:itemIconTint="@color/lavender"
+        app:itemTextColor="@color/lavender"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
